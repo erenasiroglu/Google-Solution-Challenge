@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Solution Challenge</title>
+  </head>
+  <style>
+    body {
+      background-image: url('static/EcoAR.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+}
+
+    h1 {
+      text-align: center;
+      margin-top: 50px;
+      color:#ffffff;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+    }
+
+    .file-upload {
+      border: 2px dashed #ddd;
+      border-radius: 10px;
+      cursor: pointer;
+      overflow: hidden;
+      width: 300px;
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .file-upload:hover {
+      border-color: #999;
+    }
+
+    .file-upload__label {
+      color: #999;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    input[type="file"] {
+      display: none;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      top:10px;
+    }
+
+    .image-container img {
+      width: 100%;
+      max-width: 285px;
+      height: auto;
+      margin: 10px;
+      margin-top:2px;
+      margin-right: 10px;
+    }
+
+    input[type="submit"] {
+      margin-top: 20px;
+      border-radius: 20px;
+      padding: 15px 30px;
+      font-size: 20px;
+      background-color: green;
+      color: #ffffff;
+      border: none;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+      background-color: darkgreen;
+    }
+  </style>
+  <body>
+    <h1>ECO-AR</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+      <div class="file-upload">
+        <label for="image-upload" class="file-upload__label">Upload Image</label>
+        <input
+          type="file"
+          name="image"
+          id="image-upload"
+          accept="image/png, image/jpeg"
+          onchange="document.getElementById('file-name').textContent = this.value.split('\\').pop()"
+        />
+  
+      <span id="file-name"></span>
+   </div>
+   <input type="submit" value="Submit" disabled />
+  </form>
+      <div class="image-container">
+        <img src="static/Frame 1.png" alt="Frame 1" />
+        <img src="static/Frame 2.png" alt="Frame 1" />
+        <img src="static/Frame 3.png" alt="Frame 1" />
+        <img src="static/Frame 1.png" alt="Frame 1" />
+      </div>
+    </form>
+    <script>
+      document.getElementById('image-upload').addEventListener('change', function() {
+        document.querySelector('input[type="submit"]').disabled = false;
+      });
+    </script>
+  </body>
+</html>

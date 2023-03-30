@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Solution Challenge</title>
+    <style>
+      body {
+        background-image: url("static/EcoAR.png");
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        text-align: center;
+        margin: 50px 0;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+      }
+      li {
+        font-size: 20px;
+        margin: 10px 0;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      li span {
+        font-weight: bold;
+        margin-right: 5px;
+      }
+      li.high {
+        color: #4caf50;
+      }
+      li.medium {
+        color: #ffc107;
+      }
+      li.low {
+        color: #f44336;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>ECO-AR Results</h1>
+    <ul>
+      {% for label in labels %}
+      <li
+        class="{% if label.score >= 0.8 %}high{% elif label.score >= 0.5 %}medium{% else %}low{% endif %}"
+      >
+        <span>{{ label.description }}</span> ({{ label.score | round(2) }})
+      </li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>

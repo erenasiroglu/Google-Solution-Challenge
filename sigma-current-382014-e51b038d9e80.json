@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "sigma-current-382014",
+  "private_key_id": "e51b038d9e80ebce363c8ce5ebaf2380748b2eda",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCwGm5SflsZ9k1b\n+tLyyfLupyvA+tJt980pd9A9NyajNKi+tpfOuGvEDypvOuUFpsAgHjHxdp66qFtl\nGs5G9dukX+A2mjhUgrGOlj3Xg4iuDOC7L0LcGpCbGICpW6nPiAr8TRu6fMxq9uf6\n2VOoP/1ka0AJSmD5TOHVxNDvDzT+HE1Xw9jrb6uET+ctmVynX3UHDTQrXRMHcCbi\nXmv8xKlpbAuO9lIsNNK0IQ2a7Ot5msgAz9RDH5xRvjC7friYe4yH7C8C5pKaHGFQ\nuSoLHEwqXpWCDJ2ObV+U9ykaSs4zgoE3Bn8S0iCsiHOAAHV/r1ePdTU8T5Pe4QjV\n4hMVslfHAgMBAAECggEALesOZis1VP0wqbGqzIzU796eHYkpUmxBTjVEEpotVHP4\nJhZVWh0jWHF95pfsPL+ArD9DVYtREymv/xpwu/cCiQdI3uPymTKk2qGZSXcuLfgE\npzpJDDxPBWnrrn1Mt2TpPGVcvBEreh6cWX/OfPoGd+cxQNrok0i1QDi8JAGKl1FZ\n/01a6h+2eYBszxa6hx8CQKrHpObxiQ/hqHWb0o6iFck4vaowNcMCzxnWZDOKT2pW\n6j2gOtnNfeVA1GxQZjplefrDV6GmipsIeipJoi3HFaQKxjlEg9EyElv9SuaoNAZR\nExESNAg5PF57mVyrIb346D0aY0tfPOdshrojfRLH+QKBgQDgvKqLPWl7Z3YPVww1\n4xtDpKbchszfvkKmS+evneL/143esFbH7IQU6wDvghRp0Yil+euZUOujKcOjLRei\nIwJ1G16AJYgIF6GK9u6GqpoJeLvrbnRIdxSeA2GiGJogynD56FF3jqOh33pjf6Tv\nxghLNyBI5/pHxLQi4MmNf3WDjwKBgQDImdH4DLVo6MlcCzNxxyg5v6ABpIJw/ehk\ndMSWRZocncfQ45U6RFDwFvDzVWv4W5s9dKP4bI76CX0yi4gdmqao/qKubo5hN/qh\nTPbIQLiIOoku6FosXzyQWSw/TW8aziTUcg1f8lgjVYjYjVpmHfKaEW1ijV5rjOVs\n/g1GhZjsSQKBgAY5U2PNzJkNUXi1SXJImt2xtqlO1mev5jqiyYTUk4/QUW6EZbLd\nuv61T25SpOwVUHqARGUXl58KLg/b1Na5r3y8yE42O+E1flTR5+M04FU40cOAaJoF\nKj4CC/coRUR5Ns3FAFSWT7PQ85vD0jaNvncOzMcYHZdVPEPnA832ZLPDAoGAJQ1M\nXB200EjXEHo9KVHY2znKyyLguRAdAZkTypHWklyOUMYIhTejH4WNQdTQWZJKDULj\nGnqqugJQrqpZHOa4y9QkpkVjZQ+a6no1xu01aGwvdIuUREfe/uaJprOdxvy2jsr2\nL3eq0fP1j9IkFWKIse5wHtjvzLu8kLIoL5NzmIkCgYB4YwsOOuHgDcVGK7nTQB1b\nCoY31WAh8Ix6hyIKocg2esL0YnI987pRnYq7BPoMI+0vasvyWDE0FJXwwSSD2q66\nMTugVfq/GDBA2p+YGoFM1ANrzhRYfunV6dIjRDKbAaVQ63YnLh8+HiDZd0zsb0gE\na6L92A4pkXoGxMhdatOrfg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "solutionchallenge@sigma-current-382014.iam.gserviceaccount.com",
+  "client_id": "111038714205191871041",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/solutionchallenge%40sigma-current-382014.iam.gserviceaccount.com"
+}
