@@ -6,6 +6,8 @@ ECO-AR is a mobile app that suggests tree species for reforestation based on use
 
 The main objective of ECO-AR is to suggest suitable tree and balcony plant species based on user photos, location, and climate data. The app aims to promote reforestation and sustainable practices by providing users with personalized recommendations that align with their environment.
 
+![lOGİN_SCREEN](https://github.com/erenasiroglu/Google-Solution-Challenge/blob/main/Login%20screen.JPG?raw=true)
+
 ## Features
 
 - Users can take a photo of a location where they want to plant trees and the app suggests suitable tree species based on their location and climate data.
